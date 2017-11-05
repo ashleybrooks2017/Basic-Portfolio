@@ -1,30 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Basic Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 <body>
-	<h1>Ashley Brooks</h1>
-	<ul>
-		<button>About</button>
-		<button>Portfolio</button>
-		<button>Contact</button>
-	</ul>
-	<div>
+	<header>
+		<h1 id="title">Ashley Brooks</h1>
+			<nav id="menu">
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+	</header>
+	
+	<div class="container">
+		<section class="Description">
+			
 		<H2>About Me</H2>
+		<hr/>
+		<img id="me" src="assets/images/me.jpg" alt="Ashley Brooks" style="width: 200px;"/>
+
 		<p>Praesent posuere eu felis eget vehicula. In euismod sollicitudin arcu, malesuada fringilla lorem posuere nec. Praesent ut nulla dictum massa viverra laoreet eu suscipit enim. Duis velit mauris, blandit sed ipsum in, iaculis consectetur magna. Integer ac tortor vel enim maximus varius. Pellentesque tincidunt justo id justo venenatis, sed dignissim justo convallis. Etiam dapibus libero sollicitudin urna elementum finibus.</p>
-	</div>
-	<div>
-		<h3>Connect with Me</h3>
-		<a href="https://www.linkedin.com/in/ashley-brooks-4ba36968/">
-			<img src="LinkedIn.png">
-		</a>
-		<img src="/images/LinkedIn.png">
-		<img src="/images/Stackoverflow.png">
-	</div>
 
-	<section>Copyright 2016 Ashley Brooks</section>
+		</section>
 
+		<aside class="connect">
+			<h2>Connect with Me</h2>
+			<hr/>
+			
+			<a href="https://www.linkedin.com/in/ashley-brooks-4ba36968/">
+				<img id="LinkedIn" src="assets/images/newlinkedin.png" alt="LinkedIn">
+			</a>
+
+			<a href="https://github.com/ashleybrooks2017">
+				<img id="Github" src="assets/images/newgithub.png" alt="Github"> 
+			</a>
+
+			<a href="https://stackoverflow.com/users/story/8890631">
+				<img id="stackoverflow" src="assets/images/newstackoverflow.png">
+			</a>
+			
+		</aside>
+	</div>
 </body>
+
+	<footer>
+		<p>© Copyright 2016 Ashley Brooks</p>
+	</footer>
 </html>
